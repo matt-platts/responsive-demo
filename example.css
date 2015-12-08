@@ -1,0 +1,283 @@
+#mobile_menu_top {
+	background-color:#1c5480;
+	padding:3px;
+	padding-top:0px;
+	border-radius:3px;
+	float:right;
+	margin-right:10px;
+	display:none;
+	color:white;
+}
+
+#mobile_menu_top a {
+	color:#fff;
+	font-size:0.7em;
+	cursor:pointer;
+}
+
+a { color:blue;}
+
+@media screen and (max-width: 999px) {
+	#main_stage section {
+		width:75% !important;
+	}
+}
+
+@media screen and (max-width: 940px) {
+	#header_panel p {
+		max-width:30%;
+		width:30%;
+	}
+}
+
+@media screen and (max-width: 800px) {
+	#header_panel p {
+		max-width:21%;
+		width:21%;
+		font-size:0.9em;
+	}
+}
+
+@media screen and (max-width: 720px) {
+	#header_panel p {
+		max-width:35%;
+		width:35%;
+		font-size:0.8em;
+	}
+	#header_panel { height:120px; max-height:120px;}
+	#image_div {
+		background-image:url('header_image_small.jpg');
+		background-size: 350px 120px;
+		width:350px;
+		max-width:350px;
+		height:120px;
+		max-height:120px;
+	}
+
+	aside ul { display:block;}
+}
+
+
+
+@media screen and (max-width: 640px) {
+	#header_panel p {
+		max-width:90%;
+		width:90%;
+		min-width:90%;
+		font-size:0.96em;
+		max-height:100px;
+	}
+	#header_panel {
+		height:86px;
+		max-height:86px;
+		width:350px;
+		margin:0px auto;
+	}
+	#header_panel p {
+		margin-top:0px;
+		padding-top:0px;
+		position:relative;
+		top:-15px;
+	}
+	#image_div {
+			clear:both;
+			margin-top:10px;
+			text-align:center;
+			width:100%;
+			max-width:100%;
+			min-width:100%;
+			background-repeat:no-repeat;
+			float:none;
+			background-position:center center;
+			border-radius:15px;
+
+	}
+	#image_div::after {
+	}
+	#main_stage section {
+		width:65% !important;
+	}
+
+	header p.right {
+		display:block !important;
+		margin:0px auto !important;
+		width:350px;
+		float:none !important;
+		text-align:right;
+		margin-bottom:5px !important;
+	}
+}
+
+
+@media screen and (max-width: 480px) {
+	#mobile_menu_top {
+		display:block;
+	}
+	aside {
+		position:absolute;
+		top:0px;
+		right:0px;
+		padding-left:5px;
+		background-color:#fff;
+		display:block;
+	}
+	aside ul {display:none;}
+	#main_stage section {
+		width:90%;
+		max-width:90%;
+		min-width:90%;
+		margin:0px 10px 0px 10px;
+		float:none !important;
+	}
+}
+
+
+#container {
+	max-width:1000px;
+	margin:0px auto;
+	text-align:center;
+	padding: 10px;
+}
+
+header {
+	text-align:left;
+	float:left;
+	width:100%;
+}
+
+header #logoDiv {
+	float:left;
+	width:150px;
+}
+header #logoDiv #logo {
+	display:none;
+}
+
+header h1 {
+	font-size:26px;
+	height:30px;
+	margin-bottom:0px;
+	padding-bottom:0px;
+}
+
+header h1 span {
+	color:#1c5480;
+}
+
+header h2 {
+	text-align:justify;
+	text-transform:uppercase;
+	font-size:10px;
+	width:100%;
+	margin-top:0px;
+}
+
+header p.right {
+	float:right;
+	clear:both;
+	font-size:0.8em;
+}
+
+#headerBg {
+	color:#2f6fe0;
+}
+
+#header_panel {
+	clear:both;
+	background-color:#2f6fe0;
+	border-radius:10px;
+	height:171px;
+}
+
+#header_panel p {
+	float:left;
+	display:block;
+	max-width:40%;
+	margin:25px;
+	margin-right:0px;
+	color:white;
+	margin-bottom:0px;
+}
+
+#main_stage {
+	clear:both;
+	float:left;
+}
+
+aside {
+	float:left;
+	width:150px;
+	text-align:left;
+	margin-top:10px;
+}
+
+aside ul {
+	list-style-type:none;
+	padding:0;
+}
+aside ul li {
+	border-bottom:1px #eee solid;
+	margin-bottom:5px;
+}
+aside ul li span {
+	clear:both;
+	display:block;
+	font-size:0.8em;
+	margin-bottom:5px;
+}
+aside ul li a {
+	color:#2f6fe0;
+	text-decoration:none;
+}
+
+#main_stage section {
+	text-align:left;
+	float:right;
+	width:820px;
+}
+
+#main_stage section h1 {
+	cursor:pointer;
+}
+
+#main_stage section p {
+	display:none;
+}
+
+
+.fulljustify {
+  text-align: justify;
+}
+
+.fulljustify:after {
+  content: "";
+  display: inline-block;
+  width: 100%;
+}
+
+#image_div {
+	background-image:url(header_image.jpg);
+	height:171px;
+	width:497px;
+	float:right;
+}
+
+section h1 span {
+	float:right;
+	display:block;
+	position:relative;
+}
+
+section h1 span img.open {
+	float:right;
+	position:absolute;
+	clip: rect(0px,15px,7px,0px);
+	right:0px;
+}
+
+section h1 span img.closed {
+	float:right;
+	position:absolute;
+	clip: rect(8px,15px,15px,0px);
+	right:0px;
+}
